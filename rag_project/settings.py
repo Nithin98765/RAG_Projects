@@ -136,8 +136,7 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 STATIC_URL = 'static/'
 
 ALLOWED_HOSTS = [
-    "doc_rag_chatbot.onrender.com",
-    "https://rag-projects-zaze.onrender.com/",
+    "rag-projects-zaze.onrender.com",
     "localhost",
     "127.0.0.1",
 ]

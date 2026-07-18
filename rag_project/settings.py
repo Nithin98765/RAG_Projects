@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'pgvector.django',
+    'rest_framework',
+    'helloworld',
 ]
 
 MIDDLEWARE = [
@@ -135,6 +137,7 @@ STATIC_URL = 'static/'
 
 ALLOWED_HOSTS = [
     "doc_rag_chatbot.onrender.com",
+    "https://rag-projects-zaze.onrender.com/",
     "localhost",
     "127.0.0.1",
 ]

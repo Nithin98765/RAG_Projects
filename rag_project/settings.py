@@ -15,6 +15,7 @@ import dj_database_url
 import environ
 from dotenv import load_dotenv
 import os
+from decouple import config
 
 env = environ.Env()
 load_dotenv()
@@ -140,3 +141,7 @@ ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
 ]
+
+GOOGLE_CLIENT_ID = config('GOOGLE_CLIENT_ID')
+GOOGLE_CLIENT_SECRET = config('GOOGLE_CLIENT_SECRET')
+

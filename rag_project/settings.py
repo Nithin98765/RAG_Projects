@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'pgvector.django',
     'rest_framework',
     'helloworld',
+    'rag_chatbot'
 ]
 
 MIDDLEWARE = [
@@ -144,4 +145,6 @@ ALLOWED_HOSTS = [
 
 GOOGLE_CLIENT_ID = config('GOOGLE_CLIENT_ID')
 GOOGLE_CLIENT_SECRET = config('GOOGLE_CLIENT_SECRET')
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
